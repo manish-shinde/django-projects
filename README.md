@@ -1,4 +1,4 @@
-## Django project- cryptocurrency news site
+## Django 2.0 project- cryptocurrency news site
 In this project I have created an app crypto which performs following things-
 - Shows latest news about cryptocurrency
 - Shows different paramters (Name,Price,Daily High,Daily Low,Market capital) in Indian currency of following 10 cryptocurrencies
@@ -18,4 +18,10 @@ Use the requirements.txt
 '''pip install -r requirements.txt'''
 
 You can find documentation of cryptocurrency api used [Here](https://min-api.cryptocompare.com/).
+
+## Django 2.0 project- Weather app
+Weather app using api of [Open weather map](http://api.openweathermap.org/).
+
+## Django 1.11 project - Blog website
+Blog website where you can add,edit,remove blog and approve blogs(drafts) and comments.
 
