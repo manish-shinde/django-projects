@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1 class="display-4">There is no friend as loyal as a book.</h1>
+  <p class="lead">Welcome to BookShelf , {% if user.is_authenticated %}{{ user.username|title }}{% else %}visitor{% endif %}!</p>
+  <hr class="my-4">
+</div>
+{% endblock %}

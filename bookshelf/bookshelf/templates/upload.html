@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-md-12">
+        <div class="card mb-4 ">
+            <div class="card-body">
+                <p class="lead">Upload your books Here.</p>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="file" name="document">
+                    <button type="submit" class="btn btn-primary">Upload File</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% if url %}
+<p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
+{% endif %}
+{% endblock %}
