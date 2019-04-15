@@ -25,3 +25,9 @@ Weather app using api of [Open weather map](http://api.openweathermap.org/).
 ## Django 1.11 project - Blog website
 Blog website where you can add,edit,remove blog and approve blogs(drafts) and comments.
 
+## Django 2.0 project - BookShelf website
+Books website where you can upload,download and delete books post login. (Working on adding other features, still exploring).
+
+## Django 1.11 project - Social media clone
+Coming soon.
+
